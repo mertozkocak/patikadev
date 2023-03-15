@@ -1,0 +1,11 @@
+PROJE2:[16,21,11,8,12,22] -> Merge Sort
+
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+Big-O gösterimini yazınız.
+
+1.ADIM:Diziyi ikiye bölelim. [16,21,11]-[8,12,22] 
+2.ADIM:Elde ettiğimiz dizileri ikiye bölelim. [16,21]-[11] - [8,12]-[22]
+3.ADIM:Çok elemanlıları tekrar bölelim. [16]-[21]-[11] - [8]-[12]-[22]
+4.ADIM:Küçükten büyüğe sıralayalım.[11]-[16]-[21] - [8]-[12]-[22]
+5.ADIM:Tüm elemanlıları küçükten büyüğe sıralayalım [8,11,12,16,21,22]
+6.ADIM:Big-O gösterimini = O(nlogn)
